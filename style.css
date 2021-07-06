@@ -180,8 +180,39 @@ footer p {
     background-position: bottom center;
 }
 .start{
+    justify-content: start;
     align-items: flex-start ;
 }
 .img-link a{
     margin: auto 10px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.contact-area{
+    background: url(./img/Group\ 8428.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+background-size: cover;
+padding: 8rem 0;
+background-position:
+ top center;
+}
+.f-ele {
+    width: 350px;
+    margin: 0.7rem auto;
+    padding: 0.9rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 0 5px 20px 0 #00000015;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.conta-h{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+form input[type="submit"]{
+    font-weight: 700;
 }
