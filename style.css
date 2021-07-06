@@ -51,6 +51,7 @@ li a {
 .p-tag{
     color: #828282;
     margin: 3rem 0;
+
 }
 p{
     color: #828282;
@@ -147,7 +148,10 @@ a{
     cursor: pointer;
     text-decoration: none;
 }
-.dalivary-area .container .item h1 {box-shadow: 0 5px 10px 0 #00000020;padding: 1rem 1.5rem;border-radius: 10px;}
+.dalivary-area .container{
+    border: 5px solid #ff660034;
+}
+.dalivary-area .container .item h1  a{box-shadow: 0 5px 10px 0 #00000020;padding: 1rem 1.5rem;border-radius: 10px; font-size: 25px; color: white;}
 footer{
     padding: 2rem 0;
     text-align: center;
@@ -157,4 +161,12 @@ footer h1{
     font-size: 30px;
     color: white;
     margin: 1rem auto;
+}
+.img-block{
+    justify-content: center;
+}
+.types-area .container .recipie-items .recipie-item h3 {
+    color: #2c2c2c;
+    padding: 5px 0 5px 1rem;
+    border-left: 5px solid #f44336;
 }
