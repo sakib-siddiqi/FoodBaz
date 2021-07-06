@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    
+}
+.flex{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+   
+}
+.container{
+    max-width: 1260px;
+    width: 100%;
+    margin: auto;
+}
+header {
+    padding: 1.5rem 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+li a {
+    color: #ff7200;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.block{
+    width: 45%;
+    min-width: 300px;
+    margin-top:2rem ;
+}
+.orng{
+    color: #ff7200;
+}
+.p-tag{
+    color: #828282;
+    margin: 3rem 0;
+}
+p{
+    color: #828282;
+}
+h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.button{
+    padding: 12px 20px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+section{
+    margin: 3rem auto;
+    padding: 2rem 0;
+}
+h2{
+    color:#707070;
+    font-size: 2rem;
+}
+.about-area{
+    background: url(img/bg.png);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    padding:2rem 0 0 0 ;
+}
+.alga-img{
+    width: 50%;
+}
+.text-j-b{
+    justify-content: space-between;
+}
+.flex-revarse{
+    flex-wrap: wrap-reverse;
+}
+.flex-center{
+    justify-content: center;
+}
+.flex-around{
+    justify-content: space-around;
+}
+.t-a-c{
+    text-align: center;
+}
+.recipie-item{
+    min-width: 300px;
+    width: 30%;
+}
+.recipie-items{
+    margin: 2rem auto;
+}
+.recipie-item {
+    background: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1.5rem 0;
+}
+
+.recipie-item h3 {
+    margin: 2rem 0 1rem 0;
+}
+.shadow{
+    box-shadow: 0px 0px 40px 0px #0000001A;
+}
+.follower{
+    padding: 1.5rem 1rem;
+    border-radius: 20px;
+}
+.item{
+    margin: 1rem auto;
+}
+.round{
+    border-radius: 20px;
+}
+.recipie-item a {
+    text-decoration: none;
+    color: #ff5b00;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #ffe3d6;
+    padding: 7px 16px;
+    border-radius: 1000px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.dalivary-area .container .item h1 {box-shadow: 0 5px 10px 0 #00000020;padding: 1rem 1.5rem;border-radius: 10px;}
+footer{
+    padding: 2rem 0;
+    text-align: center;
+    background: black;
+}
+footer h1{
+    font-size: 30px;
+    color: white;
+    margin: 1rem auto;
+}
